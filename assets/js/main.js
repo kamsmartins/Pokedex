@@ -1,6 +1,6 @@
 const pokemonList = document.getElementById('pokemonList')
 const loadMoreButton = document.getElementById('loadMoreButton')
-const limit = 5
+const limit = 20
 let offset = 0
 
 function convertPokemonToLi(pokemon){
